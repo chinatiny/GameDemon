@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{308D3ABA-8C7C-42CE-A0CA-FE1E0043F856}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>tank</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <ReferencePath>$(VC_ReferencesPath_x86);</ReferencePath>
+    <IncludePath>$(ProjectDir)../Util/;$(ProjectDir)../GameLib/;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <ReferencePath>$(VC_ReferencesPath_x86);</ReferencePath>
+    <IncludePath>$(ProjectDir)../Util/;$(ProjectDir)../GameLib/;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\GameLib\ConsoleUIBuff.cpp" />
+    <ClCompile Include="..\GameLib\Director.cpp" />
+    <ClCompile Include="..\GameLib\Keyboard.cpp" />
+    <ClCompile Include="..\GameLib\Scence.cpp" />
+    <ClCompile Include="..\GameLib\Spirit.cpp" />
+    <ClCompile Include="..\GameLib\TimeWheel.cpp" />
+    <ClCompile Include="..\Util\CommonTool.cpp" />
+    <ClCompile Include="AStar.cpp" />
+    <ClCompile Include="EditScence.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="FixWall.cpp" />
+    <ClCompile Include="GameApp.cpp" />
+    <ClCompile Include="GameOverScence.cpp" />
+    <ClCompile Include="Hero.cpp" />
+    <ClCompile Include="LogoScence.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainScence.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="MenuScence.cpp" />
+    <ClCompile Include="MissionCompleteScence.cpp" />
+    <ClCompile Include="SelectMapScence.cpp" />
+    <ClCompile Include="Tank.cpp" />
+    <ClCompile Include="TankGame.cpp" />
+    <ClCompile Include="Weapon.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\GameLib\ConsoleUIBuff.h" />
+    <ClInclude Include="..\GameLib\Director.h" />
+    <ClInclude Include="..\GameLib\IAStartCheck.h" />
+    <ClInclude Include="..\GameLib\IKeyboardNotify.h" />
+    <ClInclude Include="..\GameLib\Keyboard.h" />
+    <ClInclude Include="..\GameLib\KeyboardValue.h" />
+    <ClInclude Include="..\GameLib\LibCommon.h" />
+    <ClInclude Include="..\GameLib\Scence.h" />
+    <ClInclude Include="..\GameLib\Spirit.h" />
+    <ClInclude Include="..\GameLib\TimeWheel.h" />
+    <ClInclude Include="..\Util\CommTool.h" />
+    <ClInclude Include="AStar.h" />
+    <ClInclude Include="ColorDefine.h" />
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="EditScence.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="FixWall.h" />
+    <ClInclude Include="GameApp.h" />
+    <ClInclude Include="GameOverScence.h" />
+    <ClInclude Include="Hero.h" />
+    <ClInclude Include="KeyboardValue.h" />
+    <ClInclude Include="LogoScence.h" />
+    <ClInclude Include="MainScence.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="MenuScence.h" />
+    <ClInclude Include="MissionCompleteScence.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SelectMapScence.h" />
+    <ClInclude Include="Tank.h" />
+    <ClInclude Include="TankGame.h" />
+    <ClInclude Include="Weapon.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="tank.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="mk.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

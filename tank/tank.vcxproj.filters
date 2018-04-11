@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\GameLib\ConsoleUIBuff.cpp">
+      <Filter>GameLib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Director.cpp">
+      <Filter>GameLib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Keyboard.cpp">
+      <Filter>GameLib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Scence.cpp">
+      <Filter>GameLib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\TimeWheel.cpp">
+      <Filter>GameLib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Spirit.cpp">
+      <Filter>GameLib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApp.cpp">
+      <Filter>GameLib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="TankGame.cpp">
+      <Filter>TankGame\src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>TankGame\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Util\CommonTool.cpp">
+      <Filter>Util\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Tank.cpp">
+      <Filter>TankGame\src</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScence.cpp">
+      <Filter>TankGame\src</Filter>
+    </ClCompile>
+    <ClCompile Include="FixWall.cpp">
+      <Filter>TankGame\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>TankGame\src</Filter>
+    </ClCompile>
+    <ClCompile Include="LogoScence.cpp">
+      <Filter>TankGame\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Hero.cpp">
+      <Filter>TankGame\src</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuScence.cpp">
+      <Filter>TankGame\src</Filter>
+    </ClCompile>
+    <ClCompile Include="EditScence.cpp">
+      <Filter>TankGame\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>TankGame\src</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverScence.cpp">
+      <Filter>TankGame\src</Filter>
+    </ClCompile>
+    <ClCompile Include="AStar.cpp">
+      <Filter>TankGame\src</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectMapScence.cpp">
+      <Filter>TankGame\src</Filter>
+    </ClCompile>
+    <ClCompile Include="MissionCompleteScence.cpp">
+      <Filter>TankGame\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>TankGame\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GameLib">
+      <UniqueIdentifier>{b905c13b-89d5-4814-86e2-d02aa59d88c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLib\include">
+      <UniqueIdentifier>{de9c2470-2676-4cf7-84d6-77164f5660a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLib\src">
+      <UniqueIdentifier>{1221ec5b-dedd-4a45-89e7-8e957c3c9ae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{3a28a229-6bcf-4d1c-939f-53729145ec8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\include">
+      <UniqueIdentifier>{7e83678d-33af-4505-b9be-147d58d5d80c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\src">
+      <UniqueIdentifier>{4b6f53a5-c4bd-48fe-9fcd-ac3b393feb49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TankGame">
+      <UniqueIdentifier>{4769ce29-0456-409a-bddb-2468a608fade}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TankGame\include">
+      <UniqueIdentifier>{ca795461-11f7-4f02-b45c-f2458cb0ee74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TankGame\src">
+      <UniqueIdentifier>{8f708358-26c5-4760-a31e-4a13b0f4f6f7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\GameLib\ConsoleUIBuff.h">
+      <Filter>GameLib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Director.h">
+      <Filter>GameLib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\IKeyboardNotify.h">
+      <Filter>GameLib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Keyboard.h">
+      <Filter>GameLib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\KeyboardValue.h">
+      <Filter>GameLib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Scence.h">
+      <Filter>GameLib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Spirit.h">
+      <Filter>GameLib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\TimeWheel.h">
+      <Filter>GameLib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApp.h">
+      <Filter>GameLib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="TankGame.h">
+      <Filter>TankGame\include</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorDefine.h">
+      <Filter>TankGame\include</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardValue.h">
+      <Filter>TankGame\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>TankGame\include</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\Util\CommTool.h">
+      <Filter>Util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Tank.h">
+      <Filter>TankGame\include</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScence.h">
+      <Filter>TankGame\include</Filter>
+    </ClInclude>
+    <ClInclude Include="FixWall.h">
+      <Filter>TankGame\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>TankGame\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>TankGame\include</Filter>
+    </ClInclude>
+    <ClInclude Include="LogoScence.h">
+      <Filter>TankGame\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Hero.h">
+      <Filter>TankGame\include</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuScence.h">
+      <Filter>TankGame\include</Filter>
+    </ClInclude>
+    <ClInclude Include="EditScence.h">
+      <Filter>TankGame\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>TankGame\include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverScence.h">
+      <Filter>TankGame\include</Filter>
+    </ClInclude>
+    <ClInclude Include="AStar.h">
+      <Filter>TankGame\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\LibCommon.h">
+      <Filter>GameLib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\IAStartCheck.h">
+      <Filter>GameLib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectMapScence.h">
+      <Filter>TankGame\include</Filter>
+    </ClInclude>
+    <ClInclude Include="MissionCompleteScence.h">
+      <Filter>TankGame\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="tank.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="mk.ico" />
+  </ItemGroup>
+</Project>

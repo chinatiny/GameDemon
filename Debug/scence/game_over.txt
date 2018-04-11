@@ -1,0 +1,11 @@
+    TTTTTTT      TT      TTT       TT   TTTTTT        TTTTTTT   TTT     TTT TTTTTTT TTTTTTT         
+   TTT          TTTT     TTT      TTT   TT           TTT    TTT  TT     TT  TT      TT    TT        
+  TT            T  TT    TT T    TT T   TT          TT       TT   TT   TT   TT      TT    TT        
+  TT   TTTTT   TT  TT    TT TT  TT  T   TTTTTT      TT        TT  TT   TT   TTTTTT   TTTTTT         
+  TT      TT  TTTTTTTT   TT  TT TT TT   TT          TT       TT    TT TT    TT      TTT TTT         
+   TT     TT  TT     TT  TT  TTTT  TT   TT           TTT    TTT    TTTT     TT      TT    TT        
+    TTTTTTT  TT      TT  TT   TT   TT   TTTTTTT       TTTTTTT       TTT     TTTTTTT TT     TT
+	
+	
+			  按Enter键重新游戏
+			  按ESC键进入菜单界面

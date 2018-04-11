@@ -1,0 +1,10 @@
+   TT       TT TTTT   TTTT    TTTT  TTT    TTTTT     TT     TT         TTTT     TTTTT     TT       TT   TTTTT   TT     TTTTTT TTTTTTTT TTTTTT         
+  TTT      TTT  TT  TTTTTT  TTTTTT  TTT  TTTTTTTTT   TTT    TT       TTTTTTT  TTTTTTTTT  TTT      TTT  TTTTTTT  TT     TT TTT TTTTTTT  TT TTT         
+  TTTT    TTTT  TT  TT      TT       T  TT       TT  T TT   TT      TT       TT      TT  TTTT    TTTT  TT   TT  TT     TT        TT    TT             
+  TT TT  TT TT  TT   TTTT    TTTT    T  TT       TT  T  TT  TT     TT        TT       TT TT TT  TT TT  TT  TTT  TT     TTTTTT    TT    TTTTTT         
+  TT  T  T  TT  TT     TTT     TTTT  T  TT       TT  T   TT TT     TT        TT       TT TT  T  T  TT  TTTTTT   TT     TT        TT    TT             
+  TT  TTTT  TT  TT       TT      TT  T   TT     TT   T    TTTT      TT       TTT     TT  TT  TTTT  TT  TT       TT     TT        TT    TT             
+  TT   TT   TT TTTT TTTTTT  TTTTTT  TTT   TTTTTTT    T     TTT       TTTTTTT   TTTTTTT   TT   TT   TT  TT       TTTTTT TTTTTT    TT    TTTTTT
+  	
+	
+			  按Enter键进入下一关

@@ -1,0 +1,15 @@
+void 这个是欢迎界面(int x, int y)
+{
+	char * pszTitle = "欢迎进入坦克大战\n";
+	WritecChar(x, y, pszTitle, F_BLUE | F_H_BLUE | F_GREEN);
+	char* buf = { "■■■■■        ■■       ■        ■   ■   ■  \n"
+		"           ■         ■   ■      ■■      ■   ■  ■   \n"
+		"           ■        ■     ■     ■ ■     ■   ■ ■    \n"
+		"           ■       ■       ■    ■  ■    ■   ■■     \n"
+		"           ■      ■         ■   ■   ■   ■   ■ ■    \n"
+		"           ■      ■■■■■■■  ■    ■  ■   ■  ■   \n"
+		"           ■      ■          ■  ■     ■ ■   ■   ■  \n"
+		"           ■      ■          ■  ■      ■■   ■    ■ \n"
+	};
+	WritecChar(x, y, "author:Hou Zhenghui", F_BLUE | F_H_BLUE | F_GREEN);
+}
